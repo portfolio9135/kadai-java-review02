@@ -5,7 +5,7 @@ public class Review01 {
         double taxRate = 10;
 
         // 税額を計算
-        int tax = calculateTax(price, taxRate);
+        int tax = tax(price, taxRate);
 
         // 税込価格を計算
         int taxIncludedPrice = price + tax;
@@ -15,7 +15,7 @@ public class Review01 {
     }
 
     // 税額を計算するメソッド
-    public static int calculateTax(int price, double taxRate) {
+    public static int tax(int price, double taxRate) {
         return (int) (price * (taxRate / 100));
     }
 }
