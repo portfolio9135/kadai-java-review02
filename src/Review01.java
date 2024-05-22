@@ -10,5 +10,4 @@ public class Review01 {
         
         System.out.println(price + "円の商品の税込価格は" + taxIncludedPrice + "円（消費税は" + tax + "円）です。");
     }
-
 }
